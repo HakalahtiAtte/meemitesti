@@ -29,7 +29,7 @@ function App () {
   if (meme) {
     return (
       <div style={{ textAlign: 'center' }}>
-        <img style={{ width: 400 }} src={meme} alt='custom meme' />
+        <img style={{ width: 500 }} src={meme} alt='custom meme' />
         <button onClick={refreshPage}>Uudestaan</button>
       </div>
     )
